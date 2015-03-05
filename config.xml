@@ -9,10 +9,11 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <access origin="debug.phonegap.com" />
-
+    <access origin="debug.phonegap.com" subdomains="true" />
+<!--
 	<feature name="debug-server" required="true">
 		<param name="domain" value="http://localhost:8080"/>
 		<param name="key" value="1340903"/>
 	</feature>
+-->
 </widget>
