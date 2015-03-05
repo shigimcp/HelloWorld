@@ -29,11 +29,12 @@
     <content src="index.html" />
     <access origin="*" />
 
-<!--
 	<access origin="debug.phonegap.com" subdomains="true" />
+	<access origin="debug.build.phonegap.com" subdomains="true" />
 
+<!--
 	<feature name="debug-server" required="true">
-		<param name="domain" value="http://debug.phonegap.com"/>
+		<param name="domain" value="http://debug.build.phonegap.com"/>
 		<param name="key" value="b8ea39a4-c2a8-11e4-a690-a2a8e284c85c"/>
 	</feature>
 -->
